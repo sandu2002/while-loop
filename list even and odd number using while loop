@@ -1,0 +1,16 @@
+void main() {
+  int a = 0;
+  List<int> evenNum = [];
+  List<int> oddNum = [];
+  while (a <= 100) {
+    if (a % 2 == 0) {
+      evenNum.add(a);
+    } else {
+      oddNum.add(a);
+    }
+
+    a++;
+  }
+  print(evenNum);
+  print(oddNum);
+}
