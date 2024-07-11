@@ -1,0 +1,9 @@
+void main() {
+  Map<String, int> ageCollection = {"apple": 21, "banana": 34, "orange": 43};
+
+  int a = 0;
+  while (a < ageCollection.length) {
+    print(ageCollection[ageCollection.keys.elementAt((a))]);
+    a++;
+  }
+}
