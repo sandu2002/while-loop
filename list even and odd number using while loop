@@ -2,15 +2,23 @@ void main() {
   int a = 0;
   List<int> evenNum = [];
   List<int> oddNum = [];
+  List<int> antNum = [];
   while (a <= 100) {
     if (a % 2 == 0) {
       evenNum.add(a);
-    } else {
+    }
+    if (a % 3 == 0) {
       oddNum.add(a);
+    }
+    if (a % 5 == 0) {
+      antNum.add(a);
     }
 
     a++;
   }
   print(evenNum);
+  print("---------------------------");
   print(oddNum);
+  print("---------------------------");
+  print(antNum);
 }
