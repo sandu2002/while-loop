@@ -1,0 +1,13 @@
+void main() {
+  String name = "Flutter for brginners";
+  print(name[0]);
+  print(name.length);
+
+  int a = 0;
+
+  while (a < name.length) {
+    print("a=$a");
+    print(name[a]);
+    a++;
+  }
+}
